@@ -1,5 +1,11 @@
 using System;
 
+// Enhancements added to exceed assignment requirements:
+// - Random word hiding only selects from words that are not already hidden.
+// - The program ends cleanly when either all words are hidden or the user types "quit".
+// - Full scripture reference and text are displayed using encapsulated class methods.
+// - The program follows principles of encapsulation and separation of concerns using Word, Scripture, and Reference classes.
+
 class Program
 {
     static void Main(string[] args)
